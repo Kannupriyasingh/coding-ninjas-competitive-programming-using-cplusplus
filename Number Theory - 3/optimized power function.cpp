@@ -1,3 +1,10 @@
+/*
+input: 2 3
+output: 8
+
+input: 5 3
+output: 125
+*/
 #include <iostream>
 using namespace std;
 
