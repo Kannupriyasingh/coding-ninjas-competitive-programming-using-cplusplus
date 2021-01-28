@@ -1,3 +1,10 @@
+1*
+input: 2 10 5
+output: 4
+
+input: 2 5 5
+output: 2
+*/
 #include <iostream>
 using namespace std;
 // to find a to the power b modulo c ( a^b % c)
