@@ -1,1 +1,1 @@
-# coding-ninjas-competitive-programming-in-c-
+# coding-ninjas-competitive-programming-in-c++
