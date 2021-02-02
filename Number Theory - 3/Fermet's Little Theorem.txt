@@ -1,0 +1,21 @@
+/*
+theorem
+here p -> prime number
+=> (a^p) mod p = a
+=> a^p ≅ a  on the condition (mod p)
+=> a^(p-1) ≅ 1  on the condition (mod p)
+=> a^(p-1) mod p = 1
+(the application of this is to finding mod inverse)
+
+a^(p-1) mod p = 1
+divide by "a^-1" both side
+a^-1 * (a^(p-1)) mod p =  a^-1
+(a^-1 * (a^(p-1)) mod p) mod p = a^-1 mod p
+=> (a^-1 * (a^(p-1)) mod p = a^-1 mod p
+=> a^p-2 mod p = a^-1 mod p
+
+
+To find multiplicative modulo inverse
+a^-1 % m = a^(m-2) mod m (where m is prime number) 
+we can find right hand side value using modulo exponentiation
+
