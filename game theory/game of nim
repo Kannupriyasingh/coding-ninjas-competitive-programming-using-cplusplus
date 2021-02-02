@@ -1,0 +1,13 @@
+nim sum
+it is used to predict which player will win in an imparitial game.
+so there is a pile game 
+
+so to predict which player will win we need to find nim sum and for that we need to take cumalative XOR of piles
+for example
+first pile - 2
+second pile - 4
+third pile - 5
+then nim sum = 2^4^5
+if nim sum == 0 then player 1 will lose
+if nim sum != 0 then player 1 will win
+condition that both player are playing optimally
